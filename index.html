@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WP At A Glance</title>
+  <meta name="description" content="Quick WordPress site stats">
+  <meta name="author" content="Peter Arbaugh">
+
+  <!--<link rel="stylesheet" href="style.css">-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+
+<body>
+  <h1>WordPress At a Glance</h1>
+    <div class="splash">
+        <div class="spash-content">
+            <form id="url-form">
+                <fieldset>
+                    <legend>Type in the URL of the site you'd like to check.</legend>
+                    <input id="url-text" type="url" placeholder="https://www.example.org">
+                    <button id="submit-url" type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="top-3">
+            <h2>Total posts</h2>
+            <span id="cPosts">0</span>
+        </div>
+        <div class="top-3">
+            <h2>Total Pages</h2>
+            <span id="cPages"></span>
+        </div>
+        <div class="top-3">
+            <h2>Total users</h2>
+            <span id="cUsers"></span>
+        </div>
+        <h2>Total posts</h2>
+        <span id="cPosts"></span>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+            
+        })
+
+    </script>
+</body>
+</html>
